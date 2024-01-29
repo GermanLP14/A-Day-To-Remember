@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <meta name="description" content="Pagina de la banda A Day To Remember">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio</title>
+</head>
+
+<header>
+
+    <section class="logosHeader">
+        <a href="#" class="logoUno"><img class="logo" src="img/ADTR_Logo.png" alt="Portada" title="LogoADTR"></a>
+        <p>Escuchanos en</p>        
+        <a href="#" class="logoDos"><img class="spotify" src="img/spoti.png" alt="Spotify" title="Spotify"></a>
+    </section>
+
+
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" id="activo">Inicio</a></li>
+            <li><a href="banda.html">Conocenos</a></li>
+            <li><a href="#">Tienda</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<body>
+    <main>
+        <section class="seccionMain" id="fondoMain">
+
+            <article>
+                <h1>Hola</h1>
+                <p>
+                    Somos una banda estadounidense de Pop Punk y Metalcore
+                    formada en Ocala, Florida, en 2003. Nos caracterizamos por la fusión del metalcore con el pop punk.
+                    El
+                    grupo se encuentra actualmente formado por Jeremy McKinnon (voz), Neil Westfall (guitarra rítmica),
+                    Joshua Woodard (bajo), Alex Shelnutt (batería) y Kevin Skaff (guitarra principal).
+                </p>
+            </article>
+
+        </section>
+
+        <section class="seccionNoticias">
+
+            <h1 id="tituloNoticias">Noticias</h1>
+
+            <article id="uno">
+                <img id="discos" src="img/disc.jpg" alt="discosADTR" title="Albumes de la Banda">
+                <p>
+                    <h1>Disco Atrasado</h1>Hace casi 6 meses que se esperaba el lanzamiento del nuevo disco de A Day To
+                    Remember titulado
+                    You’re Welcome.Y aunque se afirmó que para inicios del 2020 era un hecho que tendría
+                    fecha definitiva, la contingencia por COVID19 ha prolongado aún más la posibilidad de escuchar este
+                    nuevo material.
+                </p>
+                <a href="#" class="botones">Ampliar</a>
+            </article>
+
+            <article id="dos">
+                <img src="img/mindreader-final.jpg" alt="Portada nuevo video" title="Arte MindReader">
+                <p>
+                    <h1>Nuevo Video</h1>A Day To Remember sacó el video animado para “Mindreader”, la cual estará en su
+                    nuevo disco You’re
+                    Welcome, el cual todavía no tiene fecha de salida.
+                    Esto es lo que ha dicho Jeremy McKinnon sobre “Mindreader”:
+                    ‘Tenemos este video hecho de hace tiempo y quisimos sacar nuevo material a
+                    nuestros fans lo antes posible.
+                </p>
+                <a href="#" class="botones">Ampliar</a>
+            </article>
+        </section>
+
+        <section class="seccionAgenda">
+            <h1 id="titulo">Agenda</h1>
+
+            <table>
+                <h1 id="tituloTabla">Eventos</h1>
+
+                <thead>
+
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Lugar</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>30 - Diciembre - 2020</td>
+                        <td>20:00 PM</td>
+                        <td>West Palm Beach - FL - Estados Unidos</td>
+                    </tr>
+
+                    <tr>
+                        <td>2 - Junio - 2021</td>
+                        <td>18:00 PM</td>
+                        <td>Castle Donington - Derby - Reino Unido
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>4 - Junio - 2021</td>
+                        <td>21:00 PM</td>
+                        <td>Castle Donington - Derby - Reino Unido</td>
+                    </tr>
+
+                    <tr>
+                        <td>11 - Junio - 2021</td>
+                        <td>17:00 PM</td>
+                        <td>Rock am Ring - Alemania - Nuerburgo</td>
+                    </tr>
+
+                    <tr>
+                        <td>18 - Septiembre - 2021</td>
+                        <td>19:00 PM</td>
+                        <td>Venue - Tilburg - Netherlands</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+
+            <fieldset>
+                <h1>Datos Personales</h1>
+                <div class="nomApe">
+                    <label for="NomApe">Nombre y apellido(*)</label>
+                    <input type="text" id="NomApe" required="required">
+                </div>
+
+                <div class="cantidad">
+                    <label for="Cantidad" id="etiqueta">Cantidad(*)</label>
+                    <input type="number" id="Cantidad" required="required">
+                </div>
+
+                <div class="evento">
+                    <label for="Evento" id="lblEv">Evento(*)</label>
+                    <select id="Evento" required="required">
+                        <option value="">West Palm Beach - FL - Estados Unidos</option>
+                        <option value="">Castle Donington - Derby - Reino Unido</option>
+                        <option value="">Rock am Ring - Alemania - Nuerburgo</option>
+                    </select>
+                </div>
+
+                <div class="formaPago">
+                    <label for="FormaPago" id="lblFp">Forma de pago</label>
+                    <label for="credito">Credito</label>
+                    <input type="radio" value="credito" name="formaPago" id="credito" checked>
+                    <label for="credito">debito</label>
+                    <input type="radio" value="debito" name="formaPago" id="debito">
+                </div>
+                <input type="submit" value="Comprar" class="btn">
+            </fieldset>
+
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <p>Seguinos!</p>
+            <ul>
+                <a href="#"><li id="in"></li></a>
+                <a href="#"><li id="tw"></li></a>
+                <a href="#"><li id="fb"></li></a>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
