@@ -1,7 +1,0 @@
-Seguramente tenga muchos errores pero hay dos que percibí y son los siguientes.
--Cuando me muevo de el index al segundo archivo html el alto del header crece y no se porque es.
--El segundo es que al abrir la pagina en un monitor de una resolución mas grande me di cuenta que el logo de la banda y el spotify no se veian 
-posicionados como lo había hecho en mi monitor...en mi monitor se ven bien. Probablemente le erré en alguna medida
-No supe como arreglar esos errores.
-Cualquier duda que tenga me puede preguntar.
-Muchas gracias
